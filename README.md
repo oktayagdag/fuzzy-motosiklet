@@ -112,16 +112,16 @@ sim = ctrl.ControlSystemSimulation(sistem)
 
 
 ### 📦 Genel Akış Diyagramı (Kısa Özet)
-Kullanıcı değerleri girer.
+1- Kullanıcı değerleri girer.
 
-Fuzzy Logic sistemi bu değerlere göre:
+2- Fuzzy Logic sistemi bu değerlere göre:
 
-Ortalama hız (km/h)
+3- Ortalama hız (km/h)
 
-Yolculuk süresi (dakika)
+4- Yolculuk süresi (dakika)
 hesaplar.
 
-Sonuç ekrana yazılır.
+5- Sonuç ekrana yazılır.
 
 Aynı zamanda üyelik fonksiyonları grafikle gösterilir.
 
