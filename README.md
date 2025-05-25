@@ -9,6 +9,17 @@ Motosikletle yapılan yolculuklarda; yol tipi, hava durumu, trafik yoğunluğu v
 
 değerlerini hesaplayan bir tahmin aracı geliştirmek.
 
+
+## Projenin Çalıştırılması 
+
+⦁ git clone https://github.com/oktayagdag/fuzzy-motosiklet.git 
+
+⦁ cd fuzzy-motosiklet 
+
+⦁ pip install -r requirements.txt 
+
+⦁ python main.py 
+
  
 ## ⚙️ Kullanılan Teknolojiler
 
