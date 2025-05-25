@@ -8,6 +8,7 @@ Motosikletle yapılan yolculuklarda; yol tipi, hava durumu, trafik yoğunluğu v
 - Tahmini **süre** (dakika cinsinden)
 
 değerlerini hesaplayan bir tahmin aracı geliştirmek.
+
  
 ## ⚙️ Kullanılan Teknolojiler
 
@@ -42,13 +43,14 @@ from PyQt5.QtWidgets import ...
 from matplotlib.backends.backend_qt5agg import ...
 from matplotlib.figure import Figure
 ```
-numpy: Sayısal işlemler ve diziler için.
+⦁ numpy: Sayısal işlemler ve diziler için.
 
-skfuzzy: Bulanık mantık işlemleri için.
+⦁ skfuzzy: Bulanık mantık işlemleri için.
 
-PyQt5: Arayüzü oluşturmak için.
+⦁ PyQt5: Arayüzü oluşturmak için.
 
-matplotlib: Grafik çizmek için.
+⦁ matplotlib: Grafik çizmek için.
+
 
 ### 🎛️ 2. Girdi ve Çıktı Değişkenlerinin Tanımı
 
