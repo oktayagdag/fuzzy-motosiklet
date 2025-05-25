@@ -31,7 +31,7 @@ değerlerini hesaplayan bir tahmin aracı geliştirmek.
 
 ## KODLARIN AKIŞI VE AÇIKLAMALARI
 
-🔧 1. Kütüphanelerin İçe Aktarılması
+### 🔧 1. Kütüphanelerin İçe Aktarılması
  
 ```python
 import sys
@@ -50,7 +50,7 @@ PyQt5: Arayüzü oluşturmak için.
 
 matplotlib: Grafik çizmek için.
 
-🎛️ 2. Girdi ve Çıktı Değişkenlerinin Tanımı
+### 🎛️ 2. Girdi ve Çıktı Değişkenlerinin Tanımı
 
 ```python
 yol = ctrl.Antecedent(...)
@@ -65,7 +65,7 @@ sure = ctrl.Consequent(...)
 ⦁ Consequent: Çıktı (output) değişkenleri: ortalama_hiz, sure.
 
 
-📈 3. Üyelik Fonksiyonları (Membership Functions)
+### 📈 3. Üyelik Fonksiyonları (Membership Functions)
 
 ```python
 yol['duz'] = fuzz.trimf(yol.universe, [0, 0, 3])
@@ -83,7 +83,7 @@ ortalama_hiz['dusuk'] = fuzz.trimf(...)
 ⦁ trimf: Üçgen üyelik fonksiyonu tanımlar.
 
 
-📋 4. Kuralların Tanımı (Fuzzy Kuralları)
+### 📋 4. Kuralların Tanımı (Fuzzy Kuralları)
 
 
 ```python
@@ -100,7 +100,7 @@ kurallar = [
 
 ⦁ 7 adet örnek kural tanımlanmış.
 
-🧠 5. Kontrol Sistemi ve Simülasyon
+### 🧠 5. Kontrol Sistemi ve Simülasyon
 
 ```python
 sistem = ctrl.ControlSystem(kurallar)
