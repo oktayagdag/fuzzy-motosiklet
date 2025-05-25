@@ -187,6 +187,13 @@ Veritabanı yolumuzu belirtip tek seferlik bir çekme işlemi methodu olan addLi
 Adapterimiz ile de liste içerisindeki her bir itemi Modeldeki ilgili değişkenden çekerek Xml de hazırladığımız tasarımın ilgili elemana atıyoruz. 
 
 
+✍️ Geliştirici
+Oktay Akdağ – Bilişim Sistemleri ve Teknolojileri Bölümü
+
+Bulanık Mantık – 2025
+
+Danışman: Doktor Öğretim Üyesi HÜSEYİN YANIK
+
 ## SONUÇLAR VE DEĞERLENDİRME
 
 Proje sonucunda, Google Trends'ten çekilen günlük en popüler arama kelimeleri başarılı bir şekilde Firebase Realtime Database'e kaydedilmiş ve bu veriler Android uygulaması üzerinde gerçek zamanlı olarak listelenmiştir. Bu süreç, web scraping, veri tabanı yönetimi ve mobil uygulama geliştirme konularında değerli deneyimler kazandırmıştır.
