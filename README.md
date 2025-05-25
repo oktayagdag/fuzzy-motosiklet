@@ -1,6 +1,6 @@
 # WebScraping (with Mobile App)
 
-![mobil](https://github.com/user-attachments/assets/a83ba0dd-5b03-49e8-a2a4-00ae57fc9ee4)
+![Image](https://github.com/user-attachments/assets/ac75cd41-46b3-4cb9-9169-d41e3a4ac403)
 
 Python Selenium modulünü kullanarak Google Trends websitesinden çektiğimiz verileri yine aynı python sayfasında otomatik olarak Firebase Realtime Database'e ye kaydedip daha sonra bu verileri Android Studio IDE'si ile bir mobil uygulamaya dönüştürdüğümüz bir Web Scraping projesi.
 
