@@ -2,10 +2,7 @@
 
 ![Image](https://github.com/user-attachments/assets/ac75cd41-46b3-4cb9-9169-d41e3a4ac403)
 
-Bir motosikletin yolculuk süresi ve tahmini yakıt tüketimini; hız, yol durumu, trafik, yük ve hava koşullarına göre bulanık mantıkla tahmin etmek.
-
-
-##	GİRİŞ
+##	AMAÇ
 Motosikletle yapılan yolculuklarda; yol tipi, hava durumu, trafik yoğunluğu ve taşıma yükü gibi değişkenler göz önünde bulundurularak:
 - Tahmini **ortalama hız**,
 - Tahmini **süre** (dakika cinsinden)
