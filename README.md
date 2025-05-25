@@ -111,7 +111,7 @@ sim = ctrl.ControlSystemSimulation(sistem)
 ⦁ Girdi değerlerine göre çıktıların hesaplanabilmesi için sim nesnesi tanımlanır.
 
 
-📦 Genel Akış Diyagramı (Kısa Özet)
+### 📦 Genel Akış Diyagramı (Kısa Özet)
 Kullanıcı değerleri girer.
 
 Fuzzy Logic sistemi bu değerlere göre:
