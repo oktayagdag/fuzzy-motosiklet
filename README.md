@@ -1,28 +1,28 @@
-# WebScraping (with Mobile App)
+# 🏍️ Fuzzy Motosiklet Yolculuk Tahmin Sistemi
 
 ![Image](https://github.com/user-attachments/assets/ac75cd41-46b3-4cb9-9169-d41e3a4ac403)
 
-Python Selenium modulünü kullanarak Google Trends websitesinden çektiğimiz verileri yine aynı python sayfasında otomatik olarak Firebase Realtime Database'e ye kaydedip daha sonra bu verileri Android Studio IDE'si ile bir mobil uygulamaya dönüştürdüğümüz bir Web Scraping projesi.
-
+Bir motosikletin yolculuk süresi ve tahmini yakıt tüketimini; hız, yol durumu, trafik, yük ve hava koşullarına göre bulanık mantıkla tahmin etmek.
 
 
 ##	GİRİŞ
- Bu proje kapsamında, Google Trends'te listelenen günün en çok aranan kelimelerini Python ve Selenium kütüphanesi kullanarak web scraping yöntemiyle çekmek, ardından bu verileri yine aynı Python projesinde Firebase Realtime Database'e kaydetmek amaçlanmaktadır. Projenin devamında, Android Studio'da Java ve XML kullanarak bu verilerin mobil uygulama üzerinde listelenmesi hedeflenmiştir. Listelenen haberlere tıklandığında ilgili habere giderek, güncel arama trendlerini anlık olarak takip etmek ve bu verileri mobil platformlarda erişilebilir hale getirmek için kullanılabilir.
+Motosikletle yapılan yolculuklarda; yol tipi, hava durumu, trafik yoğunluğu ve taşıma yükü gibi değişkenler göz önünde bulundurularak:
+- Tahmini **ortalama hız**,
+- Tahmini **süre** (dakika cinsinden)
+
+değerlerini hesaplayan bir tahmin aracı geliştirmek.
  
-## Projeyi Çalıştırmak İçin Gereksinimler
-Chrome tarayıcınız ile uyumlu ChromeDriver'ı indirip, yolunu doğru vermeniz.
-Kendi FirebaseRealtime database admin(veritabanına erişimi yetkliendirme) dosyasınızı indirerek ilgili phyton kodu satırına doğru yolu vermeniz.
+## ⚙️ Kullanılan Teknolojiler
 
-## Projenin Çalıştırılma Videosu
-[Videoyu İzleyin](https://www.youtube.com/watch?v=ua9dStmtMPM)
+| Teknoloji | Açıklama |
+|----------|----------|
+| Python | Programlama dili |
+| PyQt5 | Grafik arayüz (GUI) için |
+| Scikit-Fuzzy (`skfuzzy`) | Bulanık mantık sistemi |
+| NumPy | Sayısal işlemler |
+| Matplotlib | Grafik çizimi (üyelik fonksiyonları görselleştirme) |
 
-
-## MATERYAL YÖNTEM
-Bu projede kullanılan başlıca yöntem ve araçlar aşağıda sıralanmıştır:
-⦁	Python: Web scraping ve veri işleme için kullanılan programlama dili.
-⦁	Firebase: Gerçek zamanlı veri tabanı olarak kullanmak için Google veritabanı.
-⦁	Android Studio: Android uygulama geliştirme ortamı için IDE.
-⦁	Java ve XML: Android uygulama geliştirme için kullanılan programlama dilleri.
+---
 
 ## KODLARIN AKIŞI VE AÇIKLAMALARI
 
