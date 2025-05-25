@@ -126,7 +126,7 @@ Sonuç ekrana yazılır.
 Aynı zamanda üyelik fonksiyonları grafikle gösterilir.
 
 
-✍️ Geliştirici
+### ✍️ Geliştirici
 Oktay Akdağ – Bilişim Sistemleri ve Teknolojileri Bölümü
 
 Bulanık Mantık – 2025
